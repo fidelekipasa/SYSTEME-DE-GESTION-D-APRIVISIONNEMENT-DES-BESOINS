@@ -1,0 +1,22 @@
+System.InvalidOperationException: Operation is not valid while ItemsSource is in use.Access and modify elements with ItemsControl.ItemsSource instead.
+   at Avalonia.Controls.ItemCollection.ThrowIsItemsSource()
+   at Avalonia.Controls.ItemCollection.get_WritableSource()
+   at Avalonia.Controls.ItemCollection.Clear()
+   at DirectPackageInstaller.Views.MainView.ListEntries(String[] PKGList) in C:\Users\Marcus\Documents\GitHub\DirectPackageInstaller\DirectPackageInstaller\DirectPackageInstaller\Views\MainView.axaml.cs:line 1088
+   at DirectPackageInstaller.Views.MainView.BtnLoadOnClick(Object sender, RoutedEventArgs e) in C:\Users\Marcus\Documents\GitHub\DirectPackageInstaller\DirectPackageInstaller\DirectPackageInstaller\Views\MainView.axaml.cs:line 539
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__128_0(Object state)
+   at Avalonia.Threading.SendOrPostCallbackDispatcherOperation.InvokeCore()
+   at Avalonia.Threading.DispatcherOperation.Execute()
+   at Avalonia.Threading.Dispatcher.ExecuteJob(DispatcherOperation job)
+   at Avalonia.Threading.Dispatcher.ExecuteJobsCore(Boolean fromExplicitBackgroundProcessingCallback)
+   at Avalonia.Threading.Dispatcher.Signaled()
+   at Avalonia.Win32.Win32Platform.WndProc(IntPtr hWnd, UInt32 msg, IntPtr wParam, IntPtr lParam)
+   at Avalonia.Win32.Interop.UnmanagedMethods.DispatchMessage(MSG& lpmsg)
+   at Avalonia.Win32.Win32DispatcherImpl.RunLoop(CancellationToken cancellationToken)
+   at Avalonia.Threading.DispatcherFrame.Run(IControlledDispatcherImpl impl)
+   at Avalonia.Threading.Dispatcher.PushFrame(DispatcherFrame frame)
+   at Avalonia.Threading.Dispatcher.MainLoop(CancellationToken cancellationToken)
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.StartCore(String[] args)
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.Start(String[] args)
+   at Avalonia.ClassicDesktopStyleApplicationLifetimeExtensions.StartWithClassicDesktopLifetime(AppBuilder builder, String[] args, Action`1 lifetimeBuilder)
+   at DirectPackageInstaller.Desktop.Program.Main(String[] args) in C:\Users\Marcus\Documents\GitHub\DirectPackageInstaller\DirectPackageInstaller\DirectPackageInstaller.Desktop\Program.cs:line 49

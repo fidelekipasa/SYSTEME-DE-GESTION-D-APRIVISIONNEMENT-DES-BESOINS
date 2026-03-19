@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobangu – Livraison à vélo</title>
+  <link rel="stylesheet" href="tailwind.css">
+  
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-green-600 text-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center gap-2">
+        <img src="velo.png" alt="Lobangu Logo" class="w-10 h-10">
+        <h1 class="text-2xl font-bold">Lobangu</h1>
+      </div>
+      <nav>
+        <ul class="flex gap-6 text-lg">
+          <li><a href="#accueil" class="hover:underline">Accueil</a></li>
+          <li><a href="#services" class="hover:underline">Services</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="accueil" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 px-4">
+      <div class="flex-1">
+        <h2 class="text-4xl font-bold text-green-700 mb-4">Livraison rapide et écologique</h2>
+        <p class="text-lg mb-6">Avec <strong>Lobangu</strong>, vos colis arrivent à destination rapidement et en toute sécurité, grâce à nos livreurs à vélo.</p>
+        <a href="#contact" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Commencez maintenant</a>
+      </div>
+      <div class="flex-1">
+        <img src="velo.png" alt="Livraison à vélo" class="w-80 mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10">Nos Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-xl p-6">
+          <h4 class="text-xl font-semibold text-green-700 mb-2">Livraison Express</h4>
+          <p>Vos colis livrés en un temps record dans toute la ville.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6">
+          <h4 class="text-xl font-semibold text-green-700 mb-2">Écologique</h4>
+          <p>100% à vélo pour réduire l’empreinte carbone.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-xl p-6">
+          <h4 class="text-xl font-semibold text-green-700 mb-2">Suivi en temps réel</h4>
+          <p>Suivez votre livraison depuis votre smartphone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contactez-nous</h3>
+      <form class="grid gap-4 max-w-xl mx-auto">
+        <input type="text" placeholder="Votre nom" class="border p-3 rounded-lg">
+        <input type="email" placeholder="Votre email" class="border p-3 rounded-lg">
+        <textarea placeholder="Votre message" rows="4" class="border p-3 rounded-lg"></textarea>
+        <button type="submit" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700 transition">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white py-6 mt-10 text-center">
+    <p>&copy; 2025 Lobangu – Livraison à vélo. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>

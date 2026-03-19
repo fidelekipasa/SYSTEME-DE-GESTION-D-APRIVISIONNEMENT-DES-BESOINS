@@ -1,0 +1,49 @@
+/* Mini Tailwind offline (simplifié) */
+body { font-family: sans-serif; }
+.bg-gray-50 { background-color: #f9fafb; }
+.bg-white { background-color: #ffffff; }
+.bg-gray-100 { background-color: #f3f4f6; }
+.bg-green-600 { background-color: #16a34a; }
+.bg-green-700 { background-color: #15803d; }
+.text-white { color: #ffffff; }
+.text-gray-800 { color: #1f2937; }
+.text-green-700 { color: #15803d; }
+.text-2xl { font-size: 1.5rem; font-weight: bold; }
+.text-3xl { font-size: 1.875rem; font-weight: bold; }
+.text-4xl { font-size: 2.25rem; font-weight: bold; }
+.font-bold { font-weight: bold; }
+.rounded-lg { border-radius: 0.5rem; } 
+.rounded-xl { border-radius: 0.75rem; }
+.shadow-md { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.p-3 { padding: 0.75rem; }
+.p-4 { padding: 1rem; }
+.p-6 { padding: 1.5rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+.mt-10 { margin-top: 2.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.mb-8 { margin-bottom: 2rem; }
+.mb-10 { margin-bottom: 2.5rem; }
+.grid { display: grid; }
+.gap-4 { gap: 1rem; }
+.gap-6 { gap: 1.5rem; }
+.gap-8 { gap: 2rem; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.text-center { text-align: center; }
+.max-w-6xl { max-width: 72rem; margin: auto; }
+.max-w-4xl { max-width: 56rem; margin: auto; }
+.max-w-xl { max-width: 36rem; margin: auto; }
+.w-10 { width: 2.5rem; }
+.h-10 { height: 2.5rem; }
+.w-80 { width: 20rem; }
+button:hover { filter: brightness(0.9); }
+a:hover { text-decoration: underline; }
+a { text-decoration: none; } 
+a { color: inherit; }
